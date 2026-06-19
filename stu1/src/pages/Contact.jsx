@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const Contact = () => {
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -152,6 +153,7 @@ const Contact = () => {
     </div>
   );
 };
+    
 
 const inputStyle = {
   width: "100%",
