@@ -20,7 +20,7 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         className="hover:text-amber-500 transition-colors"
-        to="addstudent"
+        to="/addstudent"
       >
         Add Student
       </NavLink>
