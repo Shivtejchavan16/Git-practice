@@ -5,6 +5,7 @@ import Login from "./pages/Login"
 import Dashboard from "./pages/Dashboard"
 import AddStudent from "./pages/AddStudent"
 import StudentList from "./pages/StudentList"
+import NotFound from "./pages/NotFound";
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/studentlist' element={<StudentList/>}/>
         <Route path='/addstudent' element={<AddStudent/>}/>
+        <Route path="*" element={<NotFound></NotFound>}/>
       </Routes>
     </div>
   )
