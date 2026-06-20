@@ -7,6 +7,7 @@ import AddStudent from "./pages/AddStudent"
 import StudentList from "./pages/StudentList"
 import NotFound from "./pages/NotFound";
 import Profile from "./pages/Profile";
+   import Reports from "./pages/Reports";
 const App = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/addstudent' element={<AddStudent/>}/>
         <Route path='/profile' element={<Profile/>}/>
         <Route path="*" element={<NotFound/>}/>
+<Route path="/reports" element={<Reports />} />
       </Routes>
     </div>
   )
