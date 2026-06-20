@@ -19,6 +19,10 @@ const Navbar = () => {
     Add Student
   </NavLink>
 
+<NavLink className="hover:text-amber-500 transition-colors" to="/reports">
+  Reports
+</NavLink>
+
   <NavLink className="hover:text-amber-500 transition-colors" to="/notfound">
     NotFound
   </NavLink>
